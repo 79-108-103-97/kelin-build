@@ -342,9 +342,9 @@ section {
 
 .background-blur,
 .background-blur-bordered {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(14.39%, rgba(255, 255, 255, 0.8)), color-stop(182.55%, rgba(255, 255, 255, 0)));
-  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.8) 14.39%, rgba(255, 255, 255, 0) 182.55%);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 14.39%, rgba(255, 255, 255, 0) 182.55%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(14.39%, rgba(255, 255, 255, 0.5)), color-stop(182.55%, rgba(255, 255, 255, 0)));
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.5) 14.39%, rgba(255, 255, 255, 0) 182.55%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 14.39%, rgba(255, 255, 255, 0) 182.55%);
   -webkit-backdrop-filter: blur(5rem);
           backdrop-filter: blur(5rem);
   padding: 5rem;
@@ -4409,6 +4409,10 @@ section {
   margin-bottom: 16rem;
 }
 
+.business-areas__spheres-title {
+  max-width: 105.8rem;
+}
+
 .business-areas__spheres-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6966,6 +6970,10 @@ section {
     padding: 3.2rem;
     padding-top: 5.2rem;
     gap: 2.8rem;
+  }
+
+  .business-areas__spheres-title {
+    max-width: 44rem;
   }
 
   .business-areas__spheres-cards {
